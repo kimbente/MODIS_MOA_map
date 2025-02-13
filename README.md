@@ -1,0 +1,30 @@
+# MODIS MOA data
+
+Data set: MEaSUREs MODIS Mosaic of Antarctica 2013-2014 (MOA2014) Image Map, Version 1
+
+- [Data repo](https://daacdata.apps.nsidc.org/pub/DATASETS/nsidc0730_MEASURES_MOA2014_v01/)  
+- [User guide](https://nsidc.org/sites/default/files/nsidc-0730-v001-userguide.pdf)
+
+## Images/maps
+
+From documentations:
+
+grn: Weighted optical grain size image; 16-bit unsigned-integer little-endian flat binary
+hp1: High-pass band 1 surface morphology image; 16-bit unsigned-integer little-endian flat
+binary
+
+So both are single channel images at 750m res. 
+
+The size is thus: (6964, 8056)
+
+[text](blob:vscode-webview%3A//1to4iq2h89abk3nqfea3e60hifiqbj7d3p88u0ue3irp40pnjtdr/920e6f01-bcba-4859-b9ab-c71de296f978)
+
+## Geoindexing:
+
+Corner coordinates where contained in the documentation, see [here](https://nsidc.org/sites/default/files/nsidc-0730-v001-userguide.pdf).
+
+## Byrd crop of dataset
+
+![alt text](moa_image_byrd_glacier_hr.png)
+
+Pytorch tensors are exported as well.
