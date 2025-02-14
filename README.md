@@ -1,3 +1,12 @@
+# What this repository contains
+
+- Visualisations of MODIS MOA for 
+  - Antarctica
+  - the Byrd glacier region
+- Conversion of the tif data set into a pt tensor
+- Subsetting a region (Byrd glaicer) given the wanted Polar Stereographic coordinates.
+- Generation of the corresponding coordinate grid (meshgrid) for the Byrd glaicer data.
+
 # MODIS MOA data
 
 Data set: MEaSUREs MODIS Mosaic of Antarctica 2013-2014 (MOA2014) Image Map, Version 1
