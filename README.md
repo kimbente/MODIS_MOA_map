@@ -47,6 +47,6 @@ Corner coordinates where contained in the documentation, see [here](https://nsid
 
 ## Byrd crop of dataset
 
-![alt text](moa_image_byrd_glacier_hr.png)
+![alt text](vis/moa_image_byrd_glacier_hr.png)
 
 Pytorch tensors are exported as well.
